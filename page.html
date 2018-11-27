@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Prova</title>
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- FONTELLO -->
+  <link rel="stylesheet" href="fontello/css/fontello.css">
+  <!-- NORMALIZE  -->
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <!-- CURRENT DEVICE -->
+  <script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <header class="header clearfix">
+    <a href="#"class="header__icon__bar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a href="#"><i class="icon-user"></i></a>
+    <div class="header__logo">
+      <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+    </div>
+    <div class="header__data">
+      <time><b>26 Dicembre 2018</b>-Aggiornato alle 8 00</time>
+    </div>
+    <div class="header__share">
+      <a href="https://www.facebook.com/tuttoscuola/" target="_blank"><i class="icon-facebook-circled" style="font-size:22px;"></i></a>
+      <a href="https://twitter.com/share?url=https%3A%2F%2Fgoo.gl%2FFcaJFj&text=Sicurezza%20nelle%20scuole%3A%20oggi%20la%20Giornata%20Nazionale%2C%20firma%20del%20protocollo%20al%20Miur&via=tuttoscuola" target="_blank"><i class="icon-twitter-circled"  style="font-size:22px;"></i></a>
+    </div>
+    <ul class="header__bottoni">
+      <li class="login">
+        <a href="login.html">Accedi</a>
+      </li>
+      <li class="registrati">
+        <a href="registrati.html">Abbonati</a>
+      </li>
+    </ul>
+  </header>
+
+  <nav class="nav">
+    <ul class="navbar">
+      <li class="navbar__items"><a href="#">Professione Scuola <i class="icon-down"></i></a></li>
+      <li class="navbar__items"><a href="#">Genitori<i class="icon-down"></i></a></li>
+      <li class="navbar__items"><a href="#">Studenti<i class="icon-down"></i></a></li>
+      <li class="navbar__items"><a href="#">Shop<i class="icon-down"></i></a></li>
+      <li class="navbar__items"><a href="#">Canali Tematici<i class="icon-down"></i></a></li>
+    </ul>
+    <a href="#" class="navbar__search"style="
+    height:42px;"><i class="icon-search"></i></a>
+  </nav>
+
+  <section class="cover cover--single">
+    <div class="cover_filter">
+      <div class="cover_caption">
+        <div class="cover_caption_copy">
+          <h1>Sicurezza nelle scuole: oggi la Giornata Nazionale, firma del protocollo al Miur</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <article class="single">
+    <div class="single__copy">
+      <p class="single__copy__meta"> 24, Novembre 2018 in <a href="#"> News</a> by <a href="#"> Lorenzo</a></p>
+      <h2 class="single__copy__title">Oggi, 22 novembre, torna la Giornata Nazionale per la Sicurezza nelle Scuole. Sono oltre 500 gli eventi in tutta Italia per riflettere sul tema anche in memoria di chi ha perso la vita, in passato, a causa di incidenti avvenuti in ambito scolastico.</h2>
+
+      <p class="single__copy__text">In occasione della Giornata, il Ministro dell’Istruzione, Marco Bussetti firma il Protocollo d’intesa tra MIUR, Ministero dell’Economia e delle Finanze, Banca Europea per gli investimenti, Banca di sviluppo del Consiglio d’Europa e Cassa Depositi e Prestiti per dare attuazione agli interventi della Programmazione triennale nazionale 2018-2020 in materia di edilizia scolastica. Il documento definirà il ruolo di ciascuna istituzione firmataria.</p>
+
+      <p class="single__copy__text">Subito dopo Bussetti insedierà la riunione dell’Osservatorio nazionale per l’edilizia scolastica, nel corso della quale verranno illustrate le modifiche e le semplificazioni normative introdotte dal Governo con appositi provvedimenti e con l’accordo firmato in Conferenza unificata lo scorso 6 settembre. Si parlerà anche delle principali novità relative all’Anagrafe dell’edilizia scolastica.</p>
+
+      <p class="single__copy__text"> La seconda parte della mattinata sarà dedicata alla premiazione dei progetti sulla sicurezza nelle scuole vincitori dell’edizione 2017 del concorso “Giornata della sicurezza” e della caccia al tesoro online “A caccia di sicurezza”. Seguirà il collegamento con #Futura Campobasso e con gli studenti impegnati nella maratona progettuale dedicata ai temi della sicurezza. I lavori si concluderanno con la presentazione di tre idee innovative presentate dalle scuole in materia di sicurezza e prevenzione dei rischi.</p>
+    </div>
+  </article>
+
+  <footer class="footer">
+    <div class="footer__copy">
+      <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+      <hr>
+      <ul class="footer__nav">
+        <li class="footer__item"><a href="">Chi siamo</li>
+          <li class="footer__item"><a href="">pubblicità</li>
+            <li class="footer__item"><a href="">I media parlano di noi</li>
+              <li class="footer__item"><a href="">contatti</li>
+                <li class="footer__item-blu"><a href="login.html">accedi</li>
+                  <li class="footer__item-blu"><a href="registrati.html">registrati</li>
+                  </ul>
+                </div>
+              </footer>
+
+
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+              <script>
+              $(document).ready(function(){
+                $(".header__icon__bar").click(function(e){
+                  $(".navbar").toggleClass("is-open");
+                  e.preventDefault();
+                });
+              });
+              </script>
+            </body>
+            </html>

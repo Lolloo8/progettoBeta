@@ -1,0 +1,122 @@
+/*------------------------------------------------------------------------------
+GENERAL
+------------------------------------------------------------------------------*/
+body{background-color: #f4f4f4;min-width: 768px;color:#2a2a2a;position: relative;font-family: arial,sans-serif;}
+
+/*------------------------------------------------------------------------------
+HEADER
+------------------------------------------------------------------------------*/
+.header{max-width:1000px;width:100%;padding:20px; background: #fff;margin:0px auto;margin-top:20px;}
+.header__data{float:right;font-size:14px;color:#555757;}
+.header__logo{width: 45%;float:left; }
+.header__share{float:left;padding-top: 38px;margin-left: 50px;}
+.header__share i{color:#ccd2d5;}
+.header__share i:hover{color:blue;}
+.header__bottoni{float: right;margin-right:-250px;margin-top:40px;}
+.header__bottoni li{display: inline-block;margin-right:35px;}
+.login a{text-decoration:none;color:#3ab6e8;padding:12px 1px;}
+.registrati a {color:white;text-decoration: none;font-weight: bold; background-color: #3ab6e8;padding:12px 24px;border-radius: 5%;}
+.registrati a:hover{background-color: #ccd2d5;}
+
+/*------------------------------------------------------------------------------
+NAV
+------------------------------------------------------------------------------*/
+.nav{width:1036px; margin:0 auto;background:linear-gradient(to bottom,#3f3f3f 0%, #1c1c1c 100%);padding:2px}
+.navbar li{display:inline-block;margin:0;padding:0;}
+.navbar__items a{display:block; text-decoration: none; color:#fff;text-transform:uppercase;font-weight:bold;padding:1px 17px;font-size:0.88em;}
+.navbar__items a:hover{text-decoration:underline;}
+.navbar__search{float:right;margin-top:-45px;font-size:2em; color:#2aafe5}
+.navbar__search:hover{color:#fff;}
+
+
+/*------------------------------------------------------------------------------
+LOGIN
+------------------------------------------------------------------------------*/
+.loginBox{
+  width:320px;
+  height:430px;
+  background:linear-gradient(to bottom,#110202 0%, #1c1c1c 100%);;
+  color:#fff;
+  margin: 0px auto;
+  margin-top:40px;
+  margin-bottom:35px;
+  display:block;
+  box-sizing: border-box;
+  padding:40px 30px;
+  border-radius: 3%;
+}
+
+h1{
+  margin:0;
+  padding: 0 0 20px ;/*top right bottom*/
+  text-align: center;
+  font-size: 22px;
+}
+.loginBox p{
+  font-weight: bold;
+  margin:0;
+  padding:0;
+}
+.loginBox input{
+  width:100%;
+  margin-bottom: 20px;
+}
+.loginBox input[type="text"], input[type="password"]{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height:40px;
+  color:#fff;
+  font-size: 16px;
+}
+.loginBox [type="submit"]{
+  font-weight: bold;
+  border:none;
+  outline:none;
+  height:40px;
+  background:orange;
+}
+.loginBox [type="submit"]:hover{
+  background: red;
+  color: #000;
+}
+a{
+  color:#fff;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:underline ;
+}
+
+
+/*------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------*/
+.footer{max-width:1000px; min-width: 1000px;margin:0 auto;margin-top:20px; padding:25px; background: #333;display:table;}
+.footer__copy{display:table-cell;vertical-align:middle;color:#fff;}
+.footer__nav{float:left;padding-top:15px;}
+.footer__nav li{display:inline-block;}
+.footer__nav a{text-decoration:none;text-transform: uppercase;font-size:0.8em; margin-right:10px;margin-top:20px;}
+.footer__nav a:hover{color:gray}
+.footer__item-blu a {color:#00bfff;}
+
+
+/*HACK*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */

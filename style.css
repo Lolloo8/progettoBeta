@@ -1,0 +1,257 @@
+/*------------------------------------------------------------------------------
+GENERAL
+------------------------------------------------------------------------------*/
+html, body {height: 100%;min-height: 100%;}
+body{background-color: #f4f4f4;min-width: 768px;color:#2a2a2a;position: relative;font-family: arial,sans-serif;}
+hr{height: 5px;color: #f4f4f4;background-color: #000000;margin-left:10px;}
+/*Bottone registrati*/
+a, h2 ,.btn{color:white;font-size: 0.7rem;text-transform: uppercase;font-family: arial;}
+/*------------------------------------------------------------------------------
+ICON
+------------------------------------------------------------------------------*/
+i.icon-facebook{font-size:20px;color:#bab8b8;}
+i.icon-facebook:hover{color:black;}
+i.icon-twitter{font-size:20px;color:#bab8b8;}
+i.icon-twitter:hover{color:black;}
+i.icon-gplus{font-size:20px;color:#bab8b8;}
+i.icon-gplus:hover{color:black;}
+i.icon-user{font-size:20px;color:#bab8b8;display:none;}
+i.icon-user:hover{color: black;}
+i.icon-export{font-size:20px;color:#bab8b8}
+i.icon-export:hover{color:black;}
+i.icon-right{font-size: 2.5em;float:right; margin-top:-30px;display: block;}
+/*----------------------------------------------------------------------------
+HEADER
+-----------------------------------------------------------------------------*/
+.header{max-width:1000px;width:100%;padding:20px; background: #fff;margin:0px auto;margin-top:20px;}
+.header__icon__bar span{display: block;height: 4px;width:75px;background: #000;margin-bottom: 15px;margin-right: 10px;}
+.header__icon__bar{ float: left;display:none;margin-top:20px;margin-left:10px;}
+.header__data{float:right;font-size:14px;color:#555757;}
+.header__logo{width: 45%;float:left; }
+.header__share{float:left;padding-top: 38px;margin-left: 50px;}
+.header__share i{color:#ccd2d5;}
+.header__share i:hover{color:blue;}
+.header__bottoni{float: right;margin-right:-250px;margin-top:40px;}
+.header__bottoni li{display: inline-block;margin-right:35px;}
+.login a{text-decoration:none;color:#3ab6e8;padding:12px 1px;}
+.registrati a {color:white;text-decoration: none;font-weight: bold; background-color: #3ab6e8;padding:12px 24px;border-radius: 5%;}
+.registrati a:hover{background-color: #ccd2d5;}
+
+/*------------------------------------------------------------------------------
+NAV
+---------------------------------------------------------------------------------*/
+.nav{width:1036px; margin:0 auto;background:linear-gradient(to bottom,#3f3f3f 0%, #1c1c1c 100%);padding:2px}
+.navbar li{display:inline-block;margin:0;padding:0;}
+.navbar__items a{display:block; text-decoration: none; color:#fff;text-transform:uppercase;font-weight:bold;padding:1px 17px;font-size:0.88em;}
+.navbar__items a:hover{text-decoration:underline;}
+.navbar__search{float:right;margin-top:-45px;font-size:2em; color:#2aafe5}
+.navbar__search:hover{color:#fff;}
+
+/*------------------------------------------------------------------------------
+PANEL AVVISI
+------------------------------------------------------------------------------*/
+.panel__avvisi{color:#fff;padding-top:15px; padding-bottom: 15px;max-width:1000px;min-width:1000px;margin:0 auto;overflow:hidden;}
+h1.avvisi__title{color:#fff;margin:0;width:65%;margin:0;border-radius:5px 0 0 5px;background:#2a2a2a;font-size:1.6rem;font-weight: normal;padding:4px 30px;float:left}
+.avvisi__right{text-decoration:none;text-transform: uppercase; font-size: .75rem;min-width:227px;width:23%;float:left;background:#3ab6e8;color:#fff;border-radius: 0 5px 5px 0;}
+.avvisi__right:hover{background:#7fcff0;}
+.avvisi__right p{display: block;margin:5px 0px 0px 20px;}
+
+
+/*------------------------------------------------------------------------------
+NAV TOPICLIST
+------------------------------------------------------------------------------*/
+.topicList{max-width:1000px;min-width: 1000px;display: block;background:#f4f4f4;margin:0 auto;margin-top:20px;padding-left:20px;}
+.topicList__title{font-size:.875rem;font-style:italic;font-weight:normal;display:inline-block;text-transform:uppercase;color:#2a2a2a;float:left;margin-right:10px; }
+.topicList ul li {background:#3ab6e8;display:inline-block;height:25px;padding:2px; }
+.topicList ul li:hover {background:#7fcff0;}
+.topicList ul a{text-decoration: none;}
+
+
+
+/*------------------------------------------------------------------------------
+Container
+------------------------------------------------------------------------------*/
+.container{max-width: 1000px; min-width:1000px; border:2px solid #f4f4f4;margin:0 auto;background:#fff;}
+/*LARGE*/
+.large{width:42%; border-right:1px solid #f4f4f4;float:left;margin-top:11px;}
+.newsBox img{width:24.5rem;margin:0 auto; display: block;}
+.newsBox img:hover{opacity: 0.5}
+h1.newsBox__title{margin:5px 10px;padding:2px;line-height: 1.2;}
+h1.newsBox__title:hover{color:#505050;}
+
+.newsBox__info{width:100%;margin:0 15px;font-size:.80rem; font-weight:bold;font-family:arial}
+.newsBox__date{color: #bab8b8;display:inline-block}
+.newsBox__share{display:inline-block;margin-left:180px;}
+.newsBox__testo{margin:14px 5px 5px 14px;line-height: 1.5;font-size: 1.0625rem}
+
+.related__title{color:#000; font-size: .875rem;padding-top:20px; padding-bottom: 8px;line-height: 1.45;text-transform: uppercase;margin-left:14px;margin-right: 14px}
+.related__title:hover{color:#505050;}
+/*SMALL*/
+.small{width:25%; border-right:1px solid #f4f4f4;float:left;margin-top:11px;}
+.newsBox__small img{width:14.1rem;margin:0 auto; display: block;}
+.newsBox__small img:hover{opacity: 0.5}
+.newsBox__small-title{margin:0px 13px;padding:3px;line-height: 1.3;font-size: 1.21em; }
+h1.newsBox__title:hover{text-decoration:underline;color:#505050;}
+.newsBox__small-share{display:inline-block;margin-left:90px;}
+.newsBox__small-testo{margin:14px 5px 5px 14px;line-height: 1.1;font-size: 0.9rem;padding-bottom:8px;}
+h1.newsBox__small-title:hover{text-decoration: underline;color:#505050}
+
+/*Vale anche per medium*/
+.newsBox__category  {text-decoration: none; color:#3ab6e8;margin-left: 13px;margin-top:20px;font-size: 0.8em;}
+
+
+/*MEDIUM*/
+.medium{width:32.6%; border:1px solid #f4f4f4;float:left;margin-top: 11px;}
+.newsBox__medium img{width:100%;margin:0 auto; display: block;}
+.newsBox__medium img:hover{opacity: 0.5}
+h1.newsBox__medium-title{margin:0px 13px;padding:3px;line-height: 1.5;font-size: 1.4em; }
+h1.newsBox__medium-title:hover{text-decoration: underline;color:#505050}
+.newsBox__medium-share{display:inline-block;margin-left:160px;}
+.newsBox__medium-testo{margin:14px 5px 5px 14px;line-height: 1.6;font-size: 0.95rem;padding-bottom:8px;}
+
+
+/*------------------------------------------------------------------------------
+FOOTER
+--------------------------------------------------------------------------------*/
+.footer{max-width:1000px; min-width: 1000px;margin:0 auto;margin-top:20px; padding:25px; background: #333;display:table;}
+.footer__copy{display:table-cell;vertical-align:middle;color:#fff;}
+.footer__copy img{width:30rem; height:177px;margin-left: 250px;}
+.footer__nav{padding-top:30px;margin-left: 60px;}
+.footer__nav li{display:inline-block;}
+.footer__nav a{text-decoration:none;text-transform: uppercase;font-size:1.0rem; margin-right:10px;margin-top:20px;}
+.footer__nav a:hover{color:gray}
+.footer__item-blu a {color:#00bfff;}
+
+
+
+/*-------------------------------
+PAGE.HTML
+--------------------------------*/
+/*COVER*/
+.cover{height:50%;max-width: 1040px;margin:0 auto;
+  background-image: url("https://www.tuttoscuola.com/content//uploads/2017/04/red-school-blur-factory-647x380.jpg");
+  background-size: cover;
+  -o- background-size: cover;
+  -moz-background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.cover_filter{background:#000;width: 100%;height: 100%;;z-index: 0;position: absolute;opacity: 0.65;}
+.cover_caption{display: table;height: 100%;width: 100%; position:relative;z-index: 1;padding:0 20px;}
+.cover_caption_copy{display: table-cell;vertical-align: middle; text-align: center;color: #fff;text-transform: uppercase}
+
+/*SINGLE*/
+.single__copy{max-width: 800px;margin: 0px auto;background: #fff;padding:20px 40px;margin-top: -80px; position:relative; z-index: 1;box-shadow: 1px 5px 10px 1px #1c1c1c}
+.single__copy__meta {font-weight: bold; font-style: italic;font-size: 18px;color:black;margin-left:5px;}
+.single__copy__meta a {color:blue;font-style: italic; font-size:14px;font-weight: lighter;}
+.single__copy__title{font-size: 1.9vw;color: black;line-height: 1.5;text-transform: inherit;margin: 5px; margin-bottom: 20px;}
+.single__copy__text{line-height: 1.7;margin:5px;font-style: italic;font-size: 1.1em;padding-bottom: 10px;}
+
+/*------------------------------------------------------------------------------
+SMARTPHONE
+------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  /*GENERAL (SMARTPHONE)*/
+  html body{min-height:100%; height:100%;max-width:100%}
+  body{background:white;box-sizing: border-box;}
+  hr{display: none;}
+
+
+  /*ICON (SMARTPHONE)*/
+  i.icon-facebook{font-size:55px;}
+  i.icon-twitter{font-size:55px;}
+  i.icon-gplus{font-size:55px;}
+  i.icon-export{font-size:55px;}
+  i.icon-user{display:block;float:right;font-size:80px;margin-right:-190px;margin-top:20px;}
+
+  /*SPENTI(SMARTPHONE)*/
+  .newsBox__testo{display:none}
+  .related__title{display: none}
+  .panel__avvisi{display:none;}
+  .topicList{display: none;}
+  .header__data{display: none;}
+  .header__share{display: none;}
+  .header__bottoni{display: none;}
+.newsBox__small-testo{display:none;}
+.newsBox__medium-testo{display:none;}
+
+  /*HEADER (SMARTPHONE)*/
+  .header{max-width:100%;}
+  .header__logo img{width: 55em;display: block;height: auto;margin-left: 160px;}
+  .header__icon__bar{ float:left;display: block;position:absolute;padding:20px;}
+
+  /*NAV SMARTPHONE*/
+  .nav{background:#fff;}
+  .navbar{width: 100% ;height: 0;overflow:auto;background:#eee;margin:0;}
+  .navbar__items a{color:#000;}
+  .navbar li {display: block;padding-top:5px;margin:20px auto;}
+  .navbar__search{display:none;}
+  .is-open{height: 300px; overflow: auto;font-size:1.7em}
+  .navbar__items a:hover{background:black;color:white}
+
+  /*------------------------------------------------------------------------------
+  CONTAINER (SMARTPHONE)
+  ------------------------------------------------------------------------------*/
+  .container{max-width: 100%;}
+  /*LARGE (SMARTPHONE)*/
+  .large{width: 100%;max-width:100%;height:auto;}
+  .newsBox img{width:100%; margin-left:10px; display: block;}
+  h1.newsBox__title{padding:12px;font-size:3.85em;line-height: 1.5;margin:30px 40px}
+  .newsBox__info{display:block;width:100%;margin: 0 50px;font-size: 2.5rem;}
+  .newsBox__share{margin-left:250px;}
+  .newsBox{border-bottom: 2px solid #e09d9d;padding-bottom: 35px;margin-left: 20px;}/*riga dopo articolo*/
+
+  /*SMALL (SMARTPHONE)*/
+  .small{width: 100%;max-width:100%;height:auto;margin-top:190px;}
+  .newsBox__small img{width:98%;display: block;height: auto;margin-top:-10px;}
+  .newsBox__small-title{padding:12px;font-size:3.85em;line-height: 1.5;margin:30px 40px }
+  .newsBox__info{display:block;width:100%;margin: 0 50px;font-size: 2.5rem;}
+  .newsBox__small{border-bottom: 2px solid #e09d9d;padding-bottom: 35px;margin-left: 20px;}/*riga dopo articolo*/
+  .newsBox__small-share{margin-left:400px;}
+
+  /*MEDIUM (SMARTPHONE)*/
+  .medium{width: 100%;max-width:100%;height:auto;margin-top:1070px;}
+  .newsBox__medium{border-bottom: 2px solid #e09d9d;padding-bottom: 35px;margin-left: 20px;margin-top:70px;}/*riga dopo articolo*/
+  .newsBox__medium img{width:98%;display: block;height: auto;margin-top:-50px;}
+  .newsBox__medium-title{padding:12px!important;font-size:3.85em !important;line-height: 1.5!important;margin:30px 40px!important;}
+  .newsBox__medium-share{margin-left:400px;}
+  .newsBox__category{display: block;text-decoration: none; color:#3ab6e8;margin-left:50px; font-size: 2.5rem;}
+
+  /*FOOTER (SMARTPHONE)*/
+  .footer{max-width: 100%;margin-left:13px;margin-top: 735px;  }
+  .footer__copy img{max-width:100%;width:40rem;}
+  .footer__nav li{display:block;}
+  .footer__copy{width:100%}
+  .footer__nav{float:none;padding-top:15px;text-align: center;}
+  .footer__nav a{font-size:2.6rem;}
+
+  /*COVER (SMARTPHONE)*/
+  .cover{height:100%;min-width: 1400px;margin:0 20px;}
+  .cover_caption_copy{font-size: 10vw;}
+
+  /*SINGLE (SMARTPHONE)*/
+  .single__copy{min-width: 1250px;margin: -110px 53px;}
+  .single__copy__meta{font-size:18vw;}
+  .single__copy__meta a{font-size:15vw;}
+  .single__copy__title{font-size: 20vw;}
+  .single__copy__text{font-size:17vw;}
+}
+
+/*HACK*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
